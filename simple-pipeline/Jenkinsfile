@@ -26,7 +26,7 @@ pipeline {
 
         // TODO: ADD A STAGE THAT SAYS HELLO
 
-	stager('stage 2') {
+	stage('stage 2') {
 	  steps {
 	     sh 'echo hello from stage 2'
 	  }
